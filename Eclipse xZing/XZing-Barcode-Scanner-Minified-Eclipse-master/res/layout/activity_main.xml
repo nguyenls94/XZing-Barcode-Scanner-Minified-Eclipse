@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="example.zxing.MainActivity" >
+    tools:context="example.zxing.DemoHomeActivity" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,6 +24,12 @@
             android:layout_height="wrap_content"
             android:onClick="scanBarcodeCustomLayout"
             android:text="@string/any_orientation" />
+        
+          <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scanBarcodeFragment"
+            android:text="Fragment Demo" />
 
         <Button
             android:layout_width="wrap_content"
