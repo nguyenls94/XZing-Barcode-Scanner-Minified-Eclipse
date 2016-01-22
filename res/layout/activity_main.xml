@@ -31,13 +31,6 @@
             android:onClick="scanBarcodeFrontCamera"
             android:text="@string/front_camera" />
 
-        <android.support.v4.app.Fragment
-            android:id="@+id/fragment_scan"
-            android:name="example.zxing.MainActivity$ScanFragment"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:layout="@layout/fragment_scan" />
-
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
